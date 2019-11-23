@@ -8,7 +8,9 @@
 3. SEO sitemap.
 4. Use `/commits/master.atom` of source repository for RSS.
 5. `application/git+http` rel tag.
-6. UTF-8 for charset and en-US for lang.
+6. Use [Primer] Jekyll theme, which is the default theme for GitHub Pages
+
+[Primer]: https://github.com/pages-themes/primer
 
 ## Use
 
