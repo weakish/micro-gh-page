@@ -11,6 +11,6 @@ defaults:
         values:
             layout: default
 
-url: https://mmap.page/micro-gh-page
-title: mmap.page
+url: https://mmap.page
+title: Micro GitHub Page
 repo: weakish/weakish.github.com
