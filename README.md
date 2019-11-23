@@ -4,7 +4,7 @@
 
 0. No JavaScript.
 1. Minimalistic 404 page.
-2. Clean url (`/page/` instead of `/page.html`).
+2. Clean urls (`/page/` instead of `/page.html`).
 3. SEO sitemap.
 4. Use `/commits/master.atom` of source repository for RSS.
 5. `application/git+http` rel tag.
