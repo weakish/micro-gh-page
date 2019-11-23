@@ -46,4 +46,6 @@ bundle exec jekyll serve
 
 ## Examples
 
-[mmap.page](https://mmap.page)
+- [this site itself](https://mmap.page/micro-gh-page/)
+- [mmap.page](https://mmap.page)
+- [add your site](https://github.com/weakish/micro-gh-page/pulls)
