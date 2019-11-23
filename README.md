@@ -46,6 +46,31 @@ Preview locally:
 bundle exec jekyll serve
 ```
 
+## ZeroNet
+
+To deploy to [ZeroNet], just add a new config file, e.g. `_zeronet.yml`, to override the `site.url` variable:
+
+```yaml
+url: /YOUR_ZERONET_SITE_ADDRESS
+```
+
+Then build the site with:
+
+```sh
+bundle exec jekyll build --config _config.yml,_zeronet.yml -d PATH_TO_ZERONET/data/YOUR_ZERONET_SITE_ADDRESS
+```
+
+Afterwards you can sign and publish your zeronet site:
+
+```sh
+zeronet.py siteSign YOUR_ZERONET_SITE_ADDRESS
+zeronet.py sitePublish YOUR_ZERONET_SITE_ADDRESS
+```
+
+You can also sign and publish your site via the zero panel in the browser.
+
+[ZeroNet]: https://zeronet.io/
+
 ## Examples
 
 - [this site itself](https://mmap.page/micro-gh-page/)
