@@ -21,14 +21,15 @@
     ```
     url: your-username.github.io
     title: your-site-title
-    repo: your-username/your-username.github.io
     ```
 
 3. (optional) Add a `favicon.ico` file.
 
 4. (optional) Add a `CNAME` file to use your own domain.
 
-5. Commit changes and push.
+5. (optional) Add `repo: USERNAME/REPO_NAME` in `_config.yml`.
+
+6. Commit changes and push.
 
 [weakish/micro-gh-page]: https://github.com/weakish/micro-gh-page
 
